@@ -91,7 +91,6 @@
           </div>
         </article>
         <article class="card">
-          <!-- CHANGED: use its own image -->
           <img src="assets/images/service-foundations.jpg" alt="Foundations and footings placeholder">
           <div class="p">
             <h3>Foundations & Footings</h3>
@@ -100,7 +99,6 @@
           </div>
         </article>
         <article class="card">
-          <!-- CHANGED: use its own image -->
           <img src="assets/images/service-repairs.jpg" alt="Repairs and demo placeholder">
           <div class="p">
             <h3>Repairs & Demo</h3>
@@ -184,7 +182,9 @@
     <div class="container contact">
       <div>
         <h2>Request a Free Estimate</h2>
-        <form id="contact-form">
+        <!-- UPDATED FORM: now posts to FormSubmit -->
+        <form id="contact-form" method="POST" action="https://formsubmit.co/Cwsteadmanllc@gmail.com">
+          <input type="hidden" name="_captcha" value="false">
           <div class="grid grid-2">
             <div>
               <label for="name">Name</label>
@@ -261,14 +261,4 @@
         <div>
           <strong>Get in touch</strong>
           <p class="meta">Phone: <a href="tel:+13202327246">(320) 232-7246</a><br>
-          Email: <a href="mailto:Cwsteadmanllc@gmail.com">Cwsteadmanllc@gmail.com</a><br>
-          Little Falls, MN</p>
-        </div>
-      </div>
-      <div class="copy meta">© 2025 C.W. Steadman LLC — All rights reserved.</div>
-    </div>
-  </footer>
 
-  <script src="assets/js/main.js" defer></script>
-</body>
-</html>
